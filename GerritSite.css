@@ -35,7 +35,7 @@ a {
 	color: #000;
 }
 .gerritTopMenu a:hover {
-	color: #007AC9;
+	color: #2d7cfc;
 }
 .gerritBody a:link,
 #gerrit_btmmenu a:link,
@@ -43,18 +43,18 @@ a {
 #gerrit_btmmenu a:visited,
 .popupContent a:link,
 .popupContent a:visited {
-	color: #02779D;
+	color: #2d7cfc;
 	text-decoration: none;
 }
 .gerritBody a:active,
 #gerrit_btmmenu a:active,
 .popupContent a:active {
-	color: #54BFD6;
+	color: #6f9fed;
 }
 .gerritBody a:hover,
 #gerrit_btmmenu a:hover,
 .popupContent a:hover {
-	color: #17A3C1;	
+	color: #2d7cfc;	
 	text-decoration: none;
 }
 input[type="text"] {
@@ -76,9 +76,9 @@ input[type="text"] {
 }
 input[type="text"]:focus {
 	color: #606060;
-	border: 2px solid #0c92e3;
+	border: 2px solid #2d7cfc;
 	background-color: #fff;
-	box-shadow: 0 0 4px #d1eafa;
+	box-shadow: 0 0 4px #2d7cfc;
 	padding: .231em .538em;
 	outline: 0;
 }
@@ -92,25 +92,25 @@ button {
 	left: auto;
 	margin: 0 auto;
 	box-sizing: border-box;
-	max-width: 1600px;
+	max-width: 1800px;
 	margin-top: 16px;
 }
 .gerritTopMenu .gwt-TabBar .gwt-TabBarItem {
-	font-size: 16px;
+	font-size: 10px;
 }
 .gerritTopMenu .gwt-TabBar .gwt-TabBarItem:hover {
-	color: #56C0E7;
+	color: #2d7cfc;
 }
 .gerritTopMenu .gwt-TabBar .gwt-TabBarItem-selected {
-	color: #199DEE;
-	border-bottom-color: #199DEE;
+	color: #2d7cfc;
+	border-bottom-color: #c0d5f7;
 }
 .gerritTopMenu .topmenuMenuLeft .gwt-TabPanelBottom {
 	margin-top: 0px;
 }
 .gerritTopMenu .menuItem.activeRow {
 	color: #fff;
-	background: #199DEE;
+	background: #2d7cfc;
 }
 .gerritTopMenu .topmenuMenuLeft {
 	padding: 0;
@@ -122,7 +122,7 @@ button {
 	border-bottom: none;
 }
 .gerritTopMenu .topmenuMenuLeft table.gwt-TabBar:after {
-	border-top: 3px solid #D4E1E7;
+	border-top: 3px solid #639fff;
 	content: "";
 	display: block;
 	margin-top: -3px;
@@ -138,10 +138,10 @@ button {
 }
 .gerritTopMenu .topmenuMenuLeft .menuItem:hover {
 	color: #333;
-	background-color: #b5dff0;
+	background-color: #639fff;
 }
 .gerritTopMenu .linkMenuBar {
-	font-size: 13px;
+	font-size: 14px;
 }
 .gerritTopMenu .topmenuMenuLeft .menuItem {
 	display: inline-block;
@@ -193,9 +193,9 @@ button {
 	font-size: 13px;
 	color: #666;
 	height: 32px;
-    border: 1px solid #c7c7c7;
-    border-radius: 2px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07) inset;
+        border: 1px solid #c7c7c7;
+        border-radius: 2px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07) inset;
 	margin-left: 8px;
 	vertical-align: top;
 }
@@ -220,9 +220,9 @@ button {
 	font-size: 13px;
 	margin-left: 8px;
 	padding: 0 12px;
-	border: 2px solid #199DEE;
+	border: 2px solid #2d7cfc;
 	vertical-align: top;
-	background-color: #199DEE;
+	background-color: #2d7cfc;
 	transition: 0.1s background-color linear;
 }
 .gerritTopMenu .searchPanel .searchButton:hover {
@@ -232,7 +232,7 @@ button {
 /* Header */
 
 #gerrit_header {
-	max-width: 1600px;
+	max-width: 1800px;
 	margin: 0 auto;
 }
 #gerrit_header #diffy_logo {
@@ -246,14 +246,14 @@ button {
 
 .gerritBody {
 	font-size: 13px !important;
-	max-width: 1600px;
+	max-width: 1800px;
 	margin: 8px auto;
 }
 .gerritBody > div {
 	padding: 0 16px;
 }
 .gerritBody .screenHeader {
-	font-size: 16px;
+	font-size: 14px;
 	margin: 3px 0 5px;
 }
 .gerritBody td {
@@ -278,18 +278,18 @@ button {
 .gerritBody .changeTable .iconHeader,
 .gerritBody .changeTable .dataHeader,
 .gerritBody .com-google-gerrit-client-change-FileTable-FileTableCss-nohover:first-child th {
-	color: #333;
+	color: #fff;
 	font-style: normal;
 	font-weight: bold;
-	background: #E1E4E6;
+	background: #2d7cfc;
 	border: none;
 	width: auto;
 }
 .gerritBody table.changeTable tr:nth-child(even) {
-	background: #F8F8F8;
+	background: #FFFFFF;
 }
 .gerritBody .changeTable a.gwt-InlineHyperlink:hover {
-	color: #308ECA;
+	color: #4283ed;
 	text-decoration: none;
 }
 .gerritBody .changeTable .dataCell {
@@ -326,7 +326,9 @@ button {
 .gerritBody .changeTable .activeRow,
 .gerritBody .accountDashboard.changeTable .activeRow,
 .gerritBody .accountDashboard.changeTable .activeRow a {
-	background: #E3F2FF !important;
+	background: #dedcdc !important;
+        font-style: normal;
+        font-weight: bold;
 }
 
 /* Next/Prev links */
@@ -367,12 +369,12 @@ button {
 	cursor: pointer;
 }
 .gerritBody .changeTablePrevNextLinks td .gwt-Hyperlink a:hover:after {
-	color: #0287B2;
+	color: #2d7cfc;
 }
 .gerritBody .screen {
 	padding: 0;
-	font-size: 14px;
-	line-height: 1.3;
+	font-size: 14px !important;
+	line-height: 1.3 !important;
 }
 .gerritBody .screen table table td {
 	padding: 5px 10px;
@@ -466,7 +468,7 @@ button {
 	border-color: #92A8B1;
 }
 .gerritBody .downloadLink:hover {
-	color: #02779D;
+	color: #4283ed;
 }
 .gerritBody .downloadLinkList .downloadLink_Active {
 	background: #E3F2FF;
@@ -494,7 +496,7 @@ button {
 	padding: 0 0 3px 6px;
 }
 .gerritBody .menuScreenMenuBar {
-	border-color: #D4E1E7;
+	border-color: #8cb8ff;
 }
 .gerritBody .menuScreenMenuBar .menuItem {
 	padding-left: 1em;
@@ -547,7 +549,7 @@ button {
 .gerritBody .patchContentTable td.commentHolder.commentPanelLast,
 .gerritBody .patchContentTable td.commentHolderLeftmost,
 .gerritBody .patchContentTable td.commentHolder {
-	border-color: #B0BDCC;
+	border-color: #2d7cfc;
 }
 .gerritBody .commentPanelButtons .gwt-Button {
 	font-size: 11px;
@@ -566,14 +568,14 @@ button {
 .patchContentTable .activeRow .wdi,
 .patchContentTable .activeRow .iconCellOfFileCommentRow,
 .patchContentTable .activeRow td.commentHolder.commentPanelLast {
-	border-color: #fff3d3 !important;
-	background: #fff3d3 !important;
+	border-color: #8cb8ff !important;
+	background: #8cb8ff !important;
 }
 
 /* Footer */
 
 #gerrit_btmmenu {
-	max-width: 1600px;
+	max-width: 1800px;
 	margin: 20px auto 10px;
 	padding-right: 25px !important;
 	font-size: 12px;
@@ -614,7 +616,7 @@ button {
 	width: 100%;
 }
 .com-google-gerrit-client-change-Message_BinderImpl_GenCss_style-messageBox {
-	width: 100%;
+	width: 100% !important;
 	border-radius: 0 !important;
 	box-sizing: border-box;
 }
@@ -625,12 +627,12 @@ button {
 }
 th.com-google-gerrit-client-change-FileTable-FileTableCss-deltaColumn1,
 th.com-google-gerrit-client-change-FileTable-FileTableCss-deltaColumn2 {
-	text-align: right;
-	padding: 5px 10px;
+	text-align: right !important;
+	padding: 5px 10px !important;
 	background: transparent;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-sectionHeader {
-	margin: 0;
+	margin: 0 !important;
 }
 .com-google-gerrit-client-change-Message_BinderImpl_GenCss_style-header {
 	height: 30px;
@@ -646,30 +648,30 @@ th.com-google-gerrit-client-change-FileTable-FileTableCss-deltaColumn2 {
 	left: 2px;
 }
 .com-google-gerrit-client-change-Message_BinderImpl_GenCss_style-contents {
-	margin-left: 40px;
+	margin-left: 40px !important;
 }
 .com-google-gerrit-client-change-Message_BinderImpl_GenCss_style-messageBox .com-google-gerrit-client-change-Message_BinderImpl_GenCss_style-avatar {
-	top: 7px;
-	left: 6px;
+	top: 7px !important;
+	left: 6px !important;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-sectionHeader {
-	margin-top: 20px;
+	margin-top: 20px !important;
 }
 .com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-subject {
-	width: 90%;
+	width: 90% !important;
 }
 .com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-row {
 	height: 30px;
 	line-height: 30px;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-infoLine {
-	left: auto;
+	left: auto !important;
 	right: 348px;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-sectionHeader .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-headerButtons {
-	border: none;
-	top: 0;
-	left: auto;
+	border: none !important;
+	top: 0 !important;
+	left: auto !important;
 	right: 12px;
 }
 .gwt-TabPanel.com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-tabPanel {
@@ -677,7 +679,7 @@ th.com-google-gerrit-client-change-FileTable-FileTableCss-deltaColumn2 {
 	margin-left: -40px;
 	width: calc(100% + 40px);
 }
-@media (min-width: 1600px) {
+@media (min-width: 1800px) {
 		.gwt-TabPanel.com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-tabPanel {
 		width: calc(100% + 100px);
 		margin-left: -100px;
@@ -692,7 +694,7 @@ th.com-google-gerrit-client-change-FileTable-FileTableCss-deltaColumn2 {
 	background: transparent !important;
 }
 .gwt-TabPanel.com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-tabPanel .gwt-TabBarItem-wrapper .gwt-TabBarItem.gwt-TabBarItem-selected {
-	border-color: #199DEE !important;
+	border-color: #b54c47 !important;
 }
 .gwt-TabPanel.com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-tabPanel .gwt-TabBarItem-wrapper .gwt-TabBarItem .gwt-Label {
 	font-weight: normal;
@@ -701,6 +703,9 @@ th.com-google-gerrit-client-change-FileTable-FileTableCss-deltaColumn2 {
 }
 .com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-tabPanel {
 	width: 100%;
+}
+.com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-tabPanel .gwt-TabBar {
+        border-bottom: 3px solid #ccc;
 }
 .gwt-TabBar {
 	border-bottom: 3px solid #ccc;
@@ -737,7 +742,7 @@ th.com-google-gerrit-client-change-FileTable-FileTableCss-deltaColumn2 {
 	max-width: none;
 	width: 100%;
 	font-weight: 400;
-	background-color: #FAFBFC;
+	background-color: #424242;
 	border: 1px solid #C7C7C7;
 	border-radius: 3px;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07) inset;
@@ -800,10 +805,10 @@ th.com-google-gerrit-client-change-FileTable-FileTableCss-deltaColumn2 {
 #change_actions button,
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-headerButtons button {
 	border-radius: 2px;
-	font-size: 12px;
+	font-size: 12px !important;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-headerButtons button {
-	margin-right: 12px;
+	margin-right: 12px !important;
 }
 #change_actions button:hover,
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-headerButtons button:hover {
@@ -827,8 +832,8 @@ button.com-google-gerrit-client-change-Reviewers_BinderImpl_GenCss_style-openAdd
 	display: none;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-infoColumn {
-	width: 325px;
-	padding-right: 0;
+	width: 325px !important;
+	padding-right: 0 !important;
 }
 .com-google-gerrit-client-change-Message_BinderImpl_GenCss_style-contents p {
 	margin-top: 3px;
@@ -855,17 +860,22 @@ button.com-google-gerrit-client-change-Reviewers_BinderImpl_GenCss_style-openAdd
 	background: transparent;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-infoLine {
-	top: -2px;
+	top: -2px !important;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-headerButtons {
 	top: 0;
+}
+.com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-popdown button {
+	min-width: 80px !important;
+	padding-right: 6px !important;
+	padding-left: 6px !important;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-popdown button:hover {
 	opacity: 0.7;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-popdown button div {
 	position: relative;
-	padding-right: 19px;
+	padding-right: 19px !important;
 	font-size: 13px;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-popdown button div::before {
@@ -880,7 +890,7 @@ button.com-google-gerrit-client-change-Reviewers_BinderImpl_GenCss_style-openAdd
 	top: 5px;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-popdown button div::after {
-	content: '';
+	content: '' !important;
 	position: absolute;
 	width: 0;
 	height: 0;
@@ -931,7 +941,7 @@ button.com-google-gerrit-client-change-Reviewers_BinderImpl_GenCss_style-openAdd
 }
 #change_actions {
 	margin-left: -10px;
-	padding-bottom: 5px;
+	padding-bottom: 5px !important;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-labels {
 	margin-left: -10px;
@@ -941,7 +951,7 @@ button.com-google-gerrit-client-change-Reviewers_BinderImpl_GenCss_style-openAdd
 	border: none !important;
 }
 .com-google-gerrit-client-change-CommitBox_BinderImpl_GenCss_style-text {
-	line-height: 15px;
+	line-height: 15px !important;
 }
 .com-google-gerrit-client-change-CommitBox_BinderImpl_GenCss_style-collapsed .com-google-gerrit-client-change-CommitBox_BinderImpl_GenCss_style-scroll {
 	padding-top: 7px;
@@ -958,7 +968,7 @@ button.com-google-gerrit-client-change-Reviewers_BinderImpl_GenCss_style-openAdd
 }
 .com-google-gerrit-client-change-CommitBox_BinderImpl_GenCss_style-userPanel img {
 	position: relative;
-	margin-right: 4px;
+	margin-right: 4px !important;
 }
 .com-google-gerrit-client-change-CommitBox_BinderImpl_GenCss_style-userPanel a {
 	position: relative;
@@ -986,7 +996,7 @@ button.com-google-gerrit-client-change-Reviewers_BinderImpl_GenCss_style-openAdd
 	max-width: none;
 	width: 100%;
 	font-weight: 400;
-	background-color: #FAFBFC;
+	background-color: #424242;
 	border: 1px solid #C7C7C7;
 	border-radius: 3px;
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.07) inset;
@@ -1008,14 +1018,14 @@ button.com-google-gerrit-client-change-Reviewers_BinderImpl_GenCss_style-openAdd
 	margin-right: 0;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-diffBase {
-	font-size: 14px;
+	font-size: 14px !important;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-diffBase select {
-	height: 23px;
-	margin-top: 1px;
+	height: 23px !important;
+	margin-top: 1px !important;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-sectionHeader button {
-	margin-top: 1px;
+	margin-top: 1px !important;
 }
 .com-google-gerrit-client-change-CommitBox_BinderImpl_GenCss_style-text {
 	padding: 0 5px;
@@ -1126,13 +1136,8 @@ button.com-google-gerrit-client-change-Reviewers_BinderImpl_GenCss_style-openAdd
 	vertical-align: middle;
 }
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-sectionHeader {
-	padding: 5px 8px;
+	padding: 5px 8px !important;
 }
 .com-google-gerrit-client-change-RelatedChanges-RelatedChangesCss-pointer {
 	padding-top: 5px;
 }
-
-table.com-google-gerrit-client-admin-ProjectAccessScreen_BinderImpl_GenCss_style-errorMessage + .gwt-Button {
-    display: none; 
-}
-
